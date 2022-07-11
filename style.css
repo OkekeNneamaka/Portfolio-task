@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    color: azure;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.heading{
+    background-color: black;
+    font-size: 15px;
+    color: azure;
+    text-transform: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.logo{
+    font-size: 40px;
+}
+
+span{
+    color: rgb(226, 87, 6);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around
+}
+
+.pages {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li a{
+    padding-right: 15px;
+    padding-left: 10px;
+    color: aliceblue;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    border: 1px solid rgb(48, 44, 44);
+    padding: 70px;
+}
+
+img{
+    width:150px;
+border-radius: 30%;
+}
+
+#aboutme-img{
+    flex-basis: 25%;
+}
+
+#aboutme-content{
+    flex-basis: 75%;
+    font-size: 15px;
+    line-height: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+}
+    
+.button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#contactbutton{
+    background-color:  rgb(226, 87, 6);
+    padding: 20px;
+    border-radius: 30px;
+    color: azure;
+    font-size: 30px;
+}
